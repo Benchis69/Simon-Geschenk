@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(/images/simon_fröhlich_shawarma.jpg), url(/images/simon_haare.jpg);
+    background: url(/images/simon_froehlich_shawarma.jpg), url(/images/simon_haare.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: right, left ;
     background-size: 50%;
