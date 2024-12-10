@@ -1,0 +1,24 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./images/simon_froehlich_shawarma.jpg), url(./images/simon_haare.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left ;
+    background-size: 50%;
+}
+
+.nav{
+    display: flex;
+    align-items: top;
+    list-style-type: none;
+}
