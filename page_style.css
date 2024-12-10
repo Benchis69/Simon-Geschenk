@@ -9,7 +9,6 @@
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
     background: url(./images/simon_froehlich_shawarma.jpg), url(./images/simon_haare.jpg);
     background-repeat: no-repeat, no-repeat;
@@ -17,8 +16,48 @@ body{
     background-size: 50%;
 }
 
-.nav{
+.navigation{
+    width: 600px;
+    height: 70px;
+    margin-top: 4%;
+    margin-left: 20%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #000;
+    border-radius: 10px;
+    position: relative;
     display: flex;
-    align-items: top;
-    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.navigation ul{
+    display: flex;
+    width: 350px;
+
+}
+
+.navigation ul li{
+    position: relative;
+    list-style: none;
+    margin-left: 10px;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
+
+.navigation ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 150%;
 }
