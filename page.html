@@ -20,18 +20,42 @@
               </ul>
         </div>
 
+        <p id="error-message"></p>
         <div class="task">
             <div class="task_info">
                 <p class="one">Durch lösen dieses Integrals erhälst du die X-Koordinate</p>
+                <div class="integral1">
+                    <span style='font-size:50px;'>&#8747;</span>
+                    <sub style='font-size:20px;vertical-align:-20px;'>0</sub>
+                    <sup style='font-size:20px;vertical-align:30px;'>0,91</sup>
+                    <p>e^2x dx</p>
+                </div>
+
                 <p class="two">Durch lösen dieses Integrals erhälst du die Y-Koordinate</p>
+                <div class="integral2">
+                    <span style='font-size:50px;'>&#8747;</span>
+                    <sub style='font-size:20px;vertical-align:-20px;'>0</sub>
+                    <sup style='font-size:20px;vertical-align:30px;'>65,8</sup>
+                    <p>sin(x) dx</p>
+                </div>
+
                 <p class="three">Durch lösen dieses Integrals erhälst du die Z-Koordinate</p>
+                <div class="integral3">
+                    <span style='font-size:50px;'>&#8747;</span>
+                    <sub style='font-size:20px;vertical-align:-20px;'>0</sub>
+                    <sup style='font-size:20px;vertical-align:30px;'>5,8</sup>
+                    <p>(5x)^-1/2</p>
+                </div>
             </div>
             <div class="answers">
-                <input class="sol_one" type="number" placeholder="Lösung X">
-                <input class="sol_two" type="number" placeholder="Lösung Y">
-                <input class="sol_three" type="number" placeholder="Lösung Z">
+                <form action="" id="form">
+                    <input class="sol_one" type="number" placeholder="Lösung X" step=".01" id="first-input">
+                    <input class="sol_two" type="number" placeholder="Lösung Y" step=".01" id="second-input">
+                    <input class="sol_three" type="number" placeholder="Lösung Z" step=".01" id="third-input">
+                    <button type="submit">Abgeben</button>
+                </form>
             </div>
-            <button class="submit">Absenden</button>
+            
         </div>
     </div>
 

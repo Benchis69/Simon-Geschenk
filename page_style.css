@@ -83,7 +83,7 @@ body{
     position: relative;
     width: max-content;
     height: max-content;
-    top: -150px;
+    bottom: 250px;
     left: 10px;
 }
 
@@ -91,12 +91,13 @@ body{
     position: relative;
     width: max-content;
     height: max-content;
+    bottom: 75px;
     left: 10px;
 }
 
 .three{
     position: relative;
-    top: 150px;
+    top: 100px;
     width: max-content;
     height: max-content;
     left: 10px;
@@ -162,3 +163,85 @@ input::-webkit-inner-spin-button {
 
 }
 
+.integral1{
+    position: absolute;
+    top: 10%;
+    left: 50px;    
+}
+
+.integral1 sub{
+    position: relative;
+    right: 5%;
+}
+
+.integral1 sup{
+    position: relative;
+    right: 20%;
+    bottom: 10px;
+}
+
+.integral1 p{
+    position: relative;
+    left: 50%;
+    bottom: 50px;
+}
+
+.integral2{
+    position: absolute;
+    top: 44%;
+    left: 50px;
+}
+
+.integral2 sub{
+    position: relative;
+    right: 5%;
+}
+
+.integral2 sup{
+    position: relative;
+    right: 20%;
+    bottom: 10px;
+}
+
+.integral2 p{
+    position: relative;
+    left: 50%;
+    bottom: 50px;
+}
+
+.integral3{
+    position: absolute;
+    top: 76%;
+    left: 50px;
+}
+
+.integral3 sub{
+    position: relative;
+    right: 5%;
+}
+
+.integral3 sup{
+    position: relative;
+    right: 20%;
+    bottom: 10px;
+}
+
+.integral3 p{
+    position: relative;
+    left: 50%;
+    bottom: 55px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 50px;
+    width:300px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    top: 400%;
+    right: 75%;
+}
