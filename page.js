@@ -8,7 +8,12 @@ form.addEventListener('submit', (e) => {
     e.preventDefault() //Prevent submit
     let errors = []
 
-    errors = getSubmitFormErrors(first_input.value, second_input.value, third_input.value)
+    // Eingaben in Zahlen umwandeln
+    const firstValue = parseFloat(first_input.value);
+    const secondValue = parseFloat(second_input.value);
+    const thirdValue = parseFloat(third_input.value);
+    
+    errors = getSubmitFormErrors(firstValue, secondValue, thirdValue);
 
     if(errors.length > 0) {
         //If there are any errors
